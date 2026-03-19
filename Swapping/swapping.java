@@ -16,7 +16,7 @@ class swapping{
 
           int swap=a;
               a=b;
-              b=swap;
+              b=swap; 
 
           System.out.println("After swapping");
           System.out.println("a = "+a);
