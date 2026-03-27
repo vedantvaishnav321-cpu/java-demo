@@ -15,5 +15,6 @@ class even_odd {
           int num=sc.nextInt();
           checkevenodd(num);
    
+         sc.close();
     }
 }

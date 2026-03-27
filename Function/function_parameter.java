@@ -17,5 +17,7 @@ class function_parameter {
         int b = sc.nextInt();
         add(a, b);
 
+
+        sc.close();
     }
 }

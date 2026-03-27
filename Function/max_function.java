@@ -19,5 +19,8 @@ class max_function{
         int b=sc.nextInt();
 
         max(a,b);
+
+
+        sc.close();
     }
 }
