@@ -1,7 +1,7 @@
 import java.util.Scanner;;
 public class average {
     
-    public static double average (double a, double b, double c) {
+    public static double avg (double a, double b, double c) {
 
         return (a + b + c) / 3;
     }
@@ -11,14 +11,14 @@ public class average {
 
         System.out.println("Enter A= ");
         double a= sc.nextDouble();
-        
+    
         System.out.println("Enter B= ");
         double b= sc.nextDouble();
         
         System.out.println("Enter C= ");
         double c= sc.nextDouble();
         
-        System.out.println("Average= " + average(a,b,c));
+        System.out.println("Average= " + avg(a,b,c));
 
         sc.close();
     }
