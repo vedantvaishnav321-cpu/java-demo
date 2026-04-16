@@ -19,7 +19,7 @@ public class isprime {
 
      public static void main(String[] args) {
 
-        System.out.println(prime(2));
+        System.out.println(prime(100));
         
      }
 }
