@@ -27,6 +27,7 @@ class marraige{
 
                 }  
               }
-
+           
+              sc.close();
     }
 }

@@ -46,6 +46,9 @@ class simple_calculator{
               
           default:
               System.out.println("Invalid choice");
+
+
+         sc.close();
       }
    }
 }

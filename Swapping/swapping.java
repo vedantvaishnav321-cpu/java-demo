@@ -14,13 +14,16 @@ class swapping{
           System.out.println("A= "+a);
           System.out.println("B= "+b);
 
-          int swap=a;
-              a=b;
-              b=swap; 
+          int temp;
+          temp=a;
+          a=b;
+          b=temp;
 
           System.out.println("After swapping");
           System.out.println("a = "+a);
           System.out.println("b = "+b);
     
-    }
+    
+          sc.close();    
+        }
 }
